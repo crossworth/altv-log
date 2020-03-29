@@ -5,7 +5,7 @@ The `console.log` for altV.
 
 #### How to use
 
-1. Download the resource [from this link]().
+1. Download the resource [from this link](https://github.com/crossworth/altv-log/releases/download/v1.0/altv-log.zip).
 2. Place the resource on the resources folder.
 3. Adds the resource as a dependency on your resource.
 3. Import the resource on the client/server.
