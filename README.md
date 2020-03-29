@@ -7,8 +7,21 @@ The `console.log` for altV.
 
 1. Download the resource [from this link](https://github.com/crossworth/altv-log/releases/download/v1.0/altv-log.zip).
 2. Place the resource on the resources folder.
-3. Adds the resource as a dependency on your resource.
+3. Adds the resource as a dependency on your resource cfg file.
 3. Import the resource on the client/server.
+
+**Your resource cfg file**
+```
+type: js,
+main: server.mjs,
+client-main: client/client.mjs,
+client-files: [
+    client/*
+],
+deps: [
+    altv-log
+]
+```
 
 **Client example**
 ```js
